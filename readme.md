@@ -7,7 +7,7 @@ There is small utility, where you can observe changes, by giving element and pro
 ```javascript
         import {io} from './src/IO'
         
-        const container = document.querySelector('ul')
+        const container = document.querySelector('ul');
         const list = Array.from(document.querySelectorAll('li'));
             
         const observer = io(container, {threshold: [0, 0.25, 0.5, 0.75, 1]});
@@ -21,7 +21,7 @@ There is small utility, where you can observe changes, by giving element and pro
 ```javascript
     const listener = observer.observe(el, callback) //return observe remove function
 
-    listener.remove(); // observer stop listening changes
+    listener.remove(); // observer stop listening changes for particular element
     
     observer.destroy(); // Killing full observer 
 
