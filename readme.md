@@ -4,6 +4,7 @@ The [IntersectionObserver](https://developer.mozilla.org/en-US/docs/Web/API/Inte
 
 This tiny utility will help you to observer the changes by passing an element and providing with the callback. In native API you have to handle observe and changes separately.
 
+### Example of usage:
 
 ```javascript
     import {io} from './src/IO'
@@ -18,6 +19,7 @@ This tiny utility will help you to observer the changes by passing an element an
     }));
 
 ```
+### Methods:
 
 ```javascript
     const listener = observer.observe(el, callback) //return observe with remove and destroy methods
