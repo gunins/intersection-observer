@@ -1,0 +1,28 @@
+{
+  "name": "intersection-observer",
+  "version": "1.0.0",
+  "description": "Small wrapper for IntersectionObserver, to use it more modular way.",
+  "main": "/dist/IO.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gunins/intersection-observer.git"
+  },
+  "keywords": [
+    "intersection",
+    "observer"
+  ],
+  "author": "Guntars Simanskis <guntars@diamondgraphics.ie>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gunins/intersection-observer/issues"
+  },
+  "homepage": "https://github.com/gunins/intersection-observer#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "rollup-stream": "^1.24.1",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
